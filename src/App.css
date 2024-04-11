@@ -1,0 +1,15 @@
+.content {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

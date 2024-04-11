@@ -1,0 +1,30 @@
+.card > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+    background-color: #1d1d1d;
+    width: 120px;
+    height: 90px;
+    font-family: cursive;
+    border-radius: 12px;
+    border: 2px solid #232323;
+    padding-top: 10px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.card {
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    border-radius: 16px;
+    transform: scale(1.05);
+    box-shadow: 0 0 16px 1px rgba(243, 243, 243, 0.2);
+}
+
+.skillIcon {
+    font-size: 36px;
+}

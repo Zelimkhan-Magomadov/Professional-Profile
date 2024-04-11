@@ -1,0 +1,12 @@
+.list {
+    display: grid;
+    justify-content: center;
+    row-gap: 16px;
+    column-gap: 32px;
+    padding: 22px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #141414;
+    width: fit-content;
+    border-radius: 16px;
+    margin: 0 auto;
+}
